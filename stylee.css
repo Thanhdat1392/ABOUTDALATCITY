@@ -1,0 +1,103 @@
+html{
+    font-family: "Playwrite GB S";
+    background-color: rgb(241, 199, 206);
+}
+#a{
+    text-align: center;
+
+}
+.container{
+    background-color: rgb(235, 246, 217);
+    height: 110%;
+    font-family: "Playwrite GB S";
+    font-weight: normal;
+    margin-top: 20px;
+    padding: 6% 20% 0 20%;
+
+}
+.block{
+    background-color: none;
+    font-family: "Playwriting GB S";
+}
+
+.block-2{
+    position:fixed;
+    top:1%;
+    left: 20px;
+  font-family: "Playwrite GB S";
+}
+.block-1{
+    position: fixed;
+    text-align: center;
+}
+.block-3{
+    position: fixed;
+    top:1%;
+    right:20px;
+    font-family: "Playwrite GB S", cursive;
+}
+.button{
+    padding: 15px 30px;
+    display: inline-block;
+    color:black;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    position: relative;
+    transition: all 0.2s linear;
+    font-family:"playwrite GB S";
+    font-size: 30px;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    left:0;
+    height: 0;
+    width: 2px;
+    background-color: rgb(207, 229, 81);
+    z-index: -1;
+    transition: height 0.5s linear, width 0.5s ease-in-out 0.5s;
+    
+}
+.button:hover::before{
+    height: 100%;
+    width:100%;
+
+}
+.block-4{
+    font-weight: 200;
+    font-family: "playwrite GB S";
+    text-align: left;
+
+}
+
+h1{
+    text-align: center;
+}
+.image{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 12px;
+
+}
+.image title{
+    font-size: 20px;
+    color: bisque; 
+    padding: 10%
+    ;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+    margin: 0 10px;
+}
+.block-7{
+    top:100%;
+}
+
